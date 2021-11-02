@@ -12,6 +12,20 @@ public class Passagem {
 	private int vooId;
 	private Voo voo;
 	
+	
+	
+	public Passagem(int idPassagem, int fileira, char poltrona, String formaPagamento, Cliente cliente, int vooId,
+			Voo voo) {
+		super();
+		this.idPassagem = idPassagem;
+		this.fileira = fileira;
+		this.poltrona = poltrona;
+		this.formaPagamento = formaPagamento;
+		this.cliente = cliente;
+		this.vooId = vooId;
+		this.voo = voo;
+	}
+	
 	public int getId() {
 		return idPassagem;
 	}

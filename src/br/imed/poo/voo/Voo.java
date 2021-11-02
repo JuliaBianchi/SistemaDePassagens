@@ -16,6 +16,22 @@ public class Voo {
 	private Date horaChegadaPrevista;
 	private ArrayList<Passagem> passagens;
 	
+	
+	
+	public Voo(int idVoo, int numero, String origem, String destino, Date dataPartida, Date horaPartida,
+			Date dataChegadaPrevista, Date horaChegadaPrevista, ArrayList<Passagem> passagens) {
+		super();
+		this.idVoo = idVoo;
+		this.numero = numero;
+		this.origem = origem;
+		this.destino = destino;
+		this.dataPartida = dataPartida;
+		this.horaPartida = horaPartida;
+		this.dataChegadaPrevista = dataChegadaPrevista;
+		this.horaChegadaPrevista = horaChegadaPrevista;
+		this.passagens = passagens;
+	}
+	
 	public int getIdVoo() {
 		return idVoo;
 	}

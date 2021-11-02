@@ -5,6 +5,15 @@ public class Aeroporto {
 	private int tamanhoPista;
 	private String cidade;
 	
+	
+	
+	public Aeroporto(int codigo, int tamanhoPista, String cidade) {
+		super();
+		this.codigo = codigo;
+		this.tamanhoPista = tamanhoPista;
+		this.cidade = cidade;
+	}
+	
 	public int getCodigo() {
 		return codigo;
 	}
